@@ -197,7 +197,7 @@ function LoginPage() {
     }
 
     // Replace this hardcoded password check with your secure authentication method
-    if (password === 'subhi') {
+    if (password === 'sri') {
       // For demo purposes, the password 'subhi' grants access
       localStorage.setItem('token', 'yourGeneratedTokenHere');
       alert('Login Successful');
