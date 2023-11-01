@@ -78,6 +78,9 @@ const CartPayment = () => {
                                             </div>
                                             <button type="button" className="my-2 mx-auto btn btn-dark"><Link to="/Login"><button>Proceed To Checkout</button> </Link></button> 
                                         </div>
+                                         <div><Link to="/PaymentPage" ><center><button
+                    className="my-2 mx-auto btn btn-dark"
+                    type="submit">Payment</button></center></Link></div>
                                     </div>
                                 </div>
                             </div>
