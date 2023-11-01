@@ -52,7 +52,7 @@ function PaymentPage() {
     <>
     <div className="payment-container">
       <div className="payment-methods">
-      <h2>Select Payment Method</h2>
+      <h2>Scan to pay</h2>
         <div
           className={`payment-method ${selectedPaymentMethod === 'gpay' ? 'selected' : ''}`}
           onClick={() => selectPaymentMethod('gpay')}
@@ -62,7 +62,7 @@ function PaymentPage() {
             src="https://static.vecteezy.com/system/resources/previews/021/672/629/non_2x/google-pay-logo-transparent-free-png.png"
             alt="Google Pay"
           /> */}
-          Scan to pay
+          Click to scan
         </div>
         {/* <div
           className={`payment-method ${selectedPaymentMethod === 'phonepe' ? 'selected' : ''}`}
