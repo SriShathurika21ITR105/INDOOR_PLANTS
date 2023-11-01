@@ -207,7 +207,7 @@ function LoginPage() {
     }
   };
 
-  const backgroundImageUrl = 'https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178345.jpg?w=1060&t=st=1697099305~exp=1697099905~hmac=b7217fcf8e37934360faa7ee0becb0e69a816253118e53683ddc39bb302e385f'; // Replace with the actual image URL
+  const backgroundImageUrl = 'https://img.freepik.com/premium-photo/modern-loft-empty-living-room-interior-design-black-pattern-wall-background_221619-1792.jpg?w=1060 '; // Replace with the actual image URL
 
   return (
     <div className='log' style={{
